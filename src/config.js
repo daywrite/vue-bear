@@ -1,4 +1,12 @@
+let router = {
+  appUrlPrefix: {
+    IframeApp: 'app-i',
+    VueApp: 'app-v',
+    ExternalSelf: 'ex-s'
+  }
+}
 let config = {
+  router,
   rootAppComponent: null,
   mountTo: '#bearApp'
 }

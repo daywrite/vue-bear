@@ -1,8 +1,11 @@
 {
-  "name": "fe.vue-bear",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "name": "vue-bear",
+  "version": "1.0.1",
+  "description": "A web for vue project",
+  "main": "dist/vue-bear.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "eslint src",
     "build": "rollup --config rollup.config.js",
@@ -11,6 +14,7 @@
   "author": "huai.li",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-syntax-object-rest-spread": "^6.13.0",
